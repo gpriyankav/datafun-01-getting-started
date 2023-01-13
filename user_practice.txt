@@ -19,3 +19,281 @@ hello
 >>> print( min (a, b))
 3
 >>> 
+(base) C:\Users\KONGA>ipython
+Python 3.9.13 (main, Aug 25 2022, 23:51:50) [MSC v.1916 64 bit (AMD64)]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.31.1 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: 45+72
+Out[1]: 117
+
+In [2]: x=7
+
+In [3]: y=3
+
+In [4]: x+y
+Out[4]: 10
+
+In [5]: total= x+y
+
+In [6]: total
+Out[6]: 10
+
+In [7]: type(x)
+Out[7]: int
+
+In [8]: type(total)
+Out[8]: int
+
+In [9]: type(10.5)
+Out[9]: float
+
+In [10]: total = 10.8+12.2+0.2
+
+In [11]: total
+Out[11]: 23.2
+
+In [12]: 7*4
+Out[12]: 28
+
+In [13]: 2**10
+Out[13]: 1024
+
+In [14]: 9**(1/2)
+Out[14]: 3.0
+
+In [15]: 7/4
+Out[15]: 1.75
+
+In [16]: 7//4
+Out[16]: 1
+
+In [17]: 3//5
+Out[17]: 0
+
+In [18]: 14//7
+Out[18]: 2
+
+In [19]: -13/4
+Out[19]: -3.25
+
+In [20]: -13//4
+Out[20]: -4
+
+In [21]: 123/0
+---------------------------------------------------------------------------
+ZeroDivisionError                         Traceback (most recent call last)
+<ipython-input-21-b2ce00d5adf0> in <module>
+----> 1 123/0
+
+ZeroDivisionError: division by zero
+
+In [22]: z+7
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-22-7d4d75d4fb80> in <module>
+----> 1 z+7
+
+NameError: name 'z' is not defined
+
+In [23]: 17%5
+Out[23]: 2
+
+In [24]: 7.5%3.5
+Out[24]: 0.5
+
+In [25]: 10*(5+3)
+Out[25]: 80
+
+In [26]: 10*5+3
+Out[26]: 53
+
+In [27]: 3*(4-5)
+Out[27]: -3
+
+In [28]: 3*4-5
+Out[28]: 7
+
+In [29]: 4**3**2
+Out[29]: 262144
+
+In [30]: (4**3)**2
+Out[30]: 4096
+
+In [31]: 4**(3**2)
+Out[31]: 262144
+In [32]: print('welcome to python!')
+welcome to python!
+
+In [33]: print("Welcome to Python!")
+Welcome to Python!
+
+In [34]: print('welcome' 'to' 'python')
+welcometopython
+
+In [35]: print('welcome','to','python')
+welcome to python
+
+In [36]: print('Welcome\nto\n\nPython!')
+Welcome
+to
+
+Python!
+
+In [37]: print('this is a longer string, so we\
+    ...: split it over two lines')
+this is a longer string, so wesplit it over two lines
+
+In [38]: print('this is a longer string, so we\
+    ...:   split it over two lines')
+this is a longer string, so we  split it over two lines
+
+In [39]: print('sum is',7+3)
+sum is 10
+
+In [40]: type('word')
+Out[40]: str
+
+In [41]: type(word)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-41-677ae5b185a7> in <module>
+----> 1 type(word)
+
+NameError: name 'word' is not defined
+
+In [42]: print('int(5.2)','truncates 5.2 to', int(5.2))
+int(5.2) truncates 5.2 to 5
+
+In [43]: print('Display "hi" in quotes')
+Display "hi" in quotes
+
+In [44]: print('Display 'hi' in quotes')
+  File "<ipython-input-44-19bf596ccf72>", line 1
+    print('Display 'hi' in quotes')
+                    ^
+SyntaxError: invalid syntax
+
+
+In [45]: print('Display \'hi\' in quotes')
+Display 'hi' in quotes
+
+In [46]: print("Display the name O'Brien")
+Display the name O'Brien
+
+In [47]: print("Display \"hi\" in quotes")
+Display "hi" in quotes
+
+In [48]: print("""Display "hi" and 'bye' in quotes""")
+Display "hi" and 'bye' in quotes
+
+In [49]: triple_quoted_string = """This is a triple-quoted
+    ...:  string that spans two lines"""
+
+In [50]: print(triple_quoted_string)
+This is a triple-quoted
+ string that spans two lines
+
+In [51]: triple_quoted_string
+Out[51]: 'This is a triple-quoted\n string that spans two lines'
+
+In [52]: print("""This is a lengthy
+    ...:    multiline string containing
+    ...: a few lines \
+    ...: of text""")
+This is a lengthy
+   multiline string containing
+a few lines of text
+
+In [53]: name = input("What is your name? ")
+What is your name? Pinky
+
+In [54]: name
+Out[54]: 'Pinky'
+
+In [55]: print(name)
+Pinky
+
+In [56]: name = input("What is your name? ")
+What is your name? 'Pinky'
+
+In [57]: name
+Out[57]: "'Pinky'"
+
+In [58]: print(name)
+'Pinky'
+
+In [59]: value1 = input('Enter first number: ')
+Enter first number: 7
+
+In [60]: Value2 = input('Enter second number: ')
+Enter second number: 3
+
+In [61]: value1 + Value2
+Out[61]: '73'
+
+In [62]: value = input('Enter an integer: ')
+Enter an integer: 7
+
+In [63]: value = int(value)
+
+In [64]: value
+Out[64]: 7
+
+In [65]: another_value = int(input('Enter another integer: '))
+Enter another integer: 13
+
+In [66]: another_value
+Out[66]: 13
+
+In [67]: value+another_value
+Out[67]: 20
+
+In [68]: bad_value = int(input('Enter another integer: '))
+Enter another integer: hello
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-68-cd36e6cf8911> in <module>
+----> 1 bad_value = int(input('Enter another integer: '))
+
+ValueError: invalid literal for int() with base 10: 'hello'
+
+In [69]: int(10.5)
+Out[69]: 10
+
+In [70]: flot(6.2)*3.3
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-70-d8660e1a2a80> in <module>
+----> 1 flot(6.2)*3.3
+
+NameError: name 'flot' is not defined
+
+In [71]: float(6.2)*3.3
+Out[71]: 20.46
+
+In [72]: flot('6.2')*3.3
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-72-392894b31d4e> in <module>
+----> 1 flot('6.2')*3.3
+
+NameError: name 'flot' is not defined
+
+In [73]: float('6.2')*3.3
+Out[73]: 20.46
+
+In [74]: 7>4
+Out[74]: True
+
+In [75]: 7<4
+Out[75]: False
+
+In [76]: 7>=4
+Out[76]: True
+
+In [77]: 7 > = 4
+  File "<ipython-input-77-5c6e2897f3b3>", line 1
+    7 > = 4
+        ^
+SyntaxError: invalid syntax
