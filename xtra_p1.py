@@ -12,7 +12,7 @@ name = "GameBot"
 # Fix the code below to print the name using an f-string
 
 print()
-print("Hello, I'm {name}, your gamebot.")
+print("Hello, I'm {Priyanka}, your gamebot.")
 print("Let's play an animal guessing game!")
 print("There are 3 animals: wolf, eagle, snake (a Python of course).")
 print("The wolf scares the eagle.")
@@ -26,7 +26,8 @@ print()
 # enter wolf, eagle, or snake.
 # Hint: use the input() function
 
-user_choice = "wolf"
+"""user_choice = "wolf" """
+user_choice = input("Enter any 3 animals-Choose from wolf,eagle and snake:")
 
 # Now the bot will pick one
 buddy_choice = random.choice(["wolf", "eagle", "snake"])
@@ -43,8 +44,15 @@ print()
 # compare the choices and print who won
 # In Python, indentation is important!
 if user_choice == buddy_choice:
-    print("We tied!")
-
+    print("Choosen same try another!")
+elif user_choice == "wolf" and buddy_choice == "eagle":
+    print("Super!you won")
+elif user_choice == "eagle" and buddy_choice == "snake":
+    print("Super!you won")
+elif user_choice == "wolf" and buddy_choice == "snake":
+    print("Super!you won")
+else:
+    print("Sorry you lost!play again")
 
 # When you finish,
 # right-click on the code and select "Format Document"
@@ -55,7 +63,12 @@ if user_choice == buddy_choice:
 # --------------------------------------------------------------------
 """
 
+This is Priyanka Gorentla - Date : 1/14/2023. 
+I have written the code by checking 2 choices, one user and another random one
 
-
+Winning selection- 
+eagle vs snake - eagle
+wolf vs eagle - wolf
+snake vs wolf - wolf
 
 """
