@@ -7,6 +7,8 @@ temp_1_string = float(input("Enter 1st temperature in Celsius:"))
 temp_2_string = float(input("Enter 2nd temperature in Celsius:"))
 temp_3_string = float(input("Enter 3rd temperature in Celsius:"))
 
+"""Decision Making based on temperatures"""
+
 if temp_3_string < 0:
     print("It's below freezing in Florida!")
 if temp_3_string == 0:
@@ -17,6 +19,8 @@ if temp_3_string > 0:
 print(temp_1_string, "first temperature")
 print(temp_2_string, "second temperature")
 print(temp_3_string, "third temperature")
+
+"""Performing Calculations like sum,product,avg,min,max and range"""
 
 sum_of_temp = temp_1_string + temp_2_string + temp_3_string
 print("Sum of 3 temperatures is :", sum_of_temp)
@@ -34,6 +38,8 @@ print(
     "-",
     max(temp_1_string, temp_2_string, temp_3_string),
 )
+
+""" connecting to google webpage"""
 
 more_details = input("Want more details about weather? Yes or No")
 
