@@ -1,0 +1,11 @@
+PS C:\Users\KONGA\Documents\datafun-01-getting-started> & C:/Users/KONGA/AppData/Local/Programs/Python/Python311/python.exe c:/Use
+rs/KONGA/Documents/datafun-01-getting-started/2.10example.py
+Enter 1st value:1
+Enter 2nd value:2
+Enter 3rd value:3
+Sum is : 6
+Average is: 2.0
+Product is: 6
+smallest value is: 1
+Largest value is: 3
+Range: 1 - 3

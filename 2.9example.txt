@@ -1,0 +1,5 @@
+PS C:\Users\KONGA\Documents\datafun-01-getting-started> & C:/Users/KONGA/AppData/Local/Programs/Python/Python311/python.exe c:/Use
+rs/KONGA/Documents/datafun-01-getting-started/2.9example.py
+Tom will play the jame first
+304 is Tom value
+288 is Jim Value

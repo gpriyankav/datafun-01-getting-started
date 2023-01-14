@@ -1,0 +1,5 @@
+PS C:\Users\KONGA\Documents\datafun-01-getting-started> & C:/Users/KONGA/AppData/Local/Programs/Python/Python311/python.exe c:/Use
+rs/KONGA/Documents/datafun-01-getting-started/2.5example.py
+Number of boxes needed: 4
+Eggs in last box: 4
+Additional eggs needed: 2

@@ -1,0 +1,15 @@
+input1 = int(input('Enter 1st value:'))
+input2 = int(input('Enter 2nd value:'))
+input3 = int(input('Enter 3rd value:'))
+
+sum = input1+input2+input3
+print('Sum is :' , sum)
+avg= round(sum/3,2)
+print('Average is:', avg)
+product = (input1*input2*input3)
+print('Product is:', product)
+small = min(input1,input2,input3)
+print('smallest value is:',small)
+large = max(input1,input2,input3)
+print('Largest value is:',large)
+print('Range:',small,'-',large)

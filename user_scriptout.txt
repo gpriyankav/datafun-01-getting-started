@@ -1,1 +1,18 @@
 # Paste the output from a sample run here.
+
+PS C:\Users\KONGA\Documents\datafun-01-getting-started> & C:/Users/KONGA/AppData/Local/Programs/Python/Python311/python.exe c:/Use
+rs/KONGA/Documents/datafun-01-getting-started/user_script.py
+Enter 1st temperature in Celsius:10
+Enter 2nd temperature in Celsius:76
+Enter 3rd temperature in Celsius:-20
+It's below freezing in Florida!
+10.0 first temperature
+76.0 second temperature
+-20.0 third temperature
+Sum of 3 temperatures is : 66.0
+Average of 3 temperatures is: 22.0
+Product of 3 temperatures: -15200.0
+smallest temperature is: -20.0
+Largest temperature is: 76.0
+Range: -20.0 - 76.0
+Want more details about weather? Yes or NoYes

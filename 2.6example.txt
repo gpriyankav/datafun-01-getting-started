@@ -1,0 +1,4 @@
+PS C:\Users\KONGA\Documents\datafun-01-getting-started> & C:/Users/KONGA/AppData/Local/Programs/Python/Python311/python.exe c:/Use
+rs/KONGA/Documents/datafun-01-getting-started/2.6example.py
+Enter an integer: 7
+7 is an odd number
